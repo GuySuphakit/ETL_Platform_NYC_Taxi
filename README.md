@@ -38,7 +38,7 @@ This project contains two ETL (Extract, Transform, Load) pipelines for processin
 1. Clone the repository:
 
    ```
-   git clone <repository-url>
+   git clone https://github.com/GuySuphakit/ETL_Platform_NYC_Taxi.git
    cd <repository-name>
    ```
 

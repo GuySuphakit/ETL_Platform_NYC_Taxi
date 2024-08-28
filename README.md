@@ -39,7 +39,7 @@ This project contains two ETL (Extract, Transform, Load) pipelines for processin
 
    ```
    git clone https://github.com/GuySuphakit/ETL_Platform_NYC_Taxi.git
-   cd <repository-name>
+   cd ETL_Platform_NYC_Taxi
    ```
 
 2. Build and start the Docker containers:

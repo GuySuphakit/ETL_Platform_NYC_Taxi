@@ -5,10 +5,13 @@ This project contains two ETL (Extract, Transform, Load) pipelines for processin
 1. Daily total transactions
 2. Top 5 TLC Taxi Zones where trips began
 
-## Prerequisites
+## Project Diagram
 
-- Docker
-- Docker Compose
+Below is a diagram of the data pipeline architecture:
+
+![Data Pipeline Architecture Diagram](images/data_pipeline_diagram.svg)
+
+This diagram illustrates the flow of data from the HVFHV Trip Records through the Airflow-orchestrated pipeline, including Spark processing, and finally to the PostgreSQL database. It also shows the supporting infrastructure like Redis and the Docker environment.
 
 ## Project Structure
 

@@ -130,6 +130,7 @@ airflow-webserver.pid
 
 # Spark
 spark-warehouse/
+spark-data/
 
 # Data files
 *.csv

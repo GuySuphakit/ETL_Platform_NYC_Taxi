@@ -9,7 +9,7 @@ This project contains two ETL (Extract, Transform, Load) pipelines for processin
 
 Below is a diagram of the data pipeline architecture:
 
-![Data Pipeline Architecture Diagram](images/data_pipeline_diagram.svg)
+![Data Pipeline Architecture Diagram](images/data_pipeline_diagram.png)
 
 This diagram illustrates the flow of data from the HVFHV Trip Records through the Airflow-orchestrated pipeline, including Spark processing, and finally to the PostgreSQL database. It also shows the supporting infrastructure like Redis and the Docker environment.
 
